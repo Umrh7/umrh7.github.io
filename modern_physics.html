@@ -4,41 +4,74 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Physics Formulas</title>
-    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script> <!-- Include the polyfill.io -->
     <script type="text/javascript" id="MathJax-script" async
         src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
     </script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #8e2de2, #4a00e0);
+            color: white;
+            padding: 20px;
+            margin: 0;
+        }
+        h1, h2 {
+            text-align: center;
+        }
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+            font-size: 18px;
+        }
+        li {
+            margin: 5px 0;
+        }
+        .content {
+            max-width: 800px;
+            margin: 0 auto;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+    </style>
 </head>
 <body>
-    <h1>Modern Physics Formulas</h1>
+    <div class="content">
+        <h1>Modern Physics Formulas</h1>
 
-    <h2>Quantum Physics</h2>
-    <p>De Broglie Wavelength: \( \lambda = \frac{h}{p} \)</p>
-    <ul>
-        <li>\( \lambda \) = wavelength</li>
-        <li>\( h \) = Planck’s constant</li>
-        <li>\( p \) = momentum</li>
-    </ul>
-    <p>Heisenberg Uncertainty Principle: \( \Delta x \Delta p \geq \frac{\hbar}{2} \)</p>
-    <ul>
-        <li>\( \Delta x \) = uncertainty in position</li>
-        <li>\( \Delta p \) = uncertainty in momentum</li>
-        <li>\( \hbar \) = reduced Planck’s constant (\( \frac{h}{2\pi} \))</li>
-    </ul>
+        <h2>Quantum Physics</h2>
+        <p>De Broglie Wavelength: \( \lambda = \frac{h}{p} \)</p>
+        <ul>
+            <li>\( \lambda \) = wavelength</li>
+            <li>\( h \) = Planck’s constant</li>
+            <li>\( p \) = momentum</li>
+        </ul>
+        <p>Heisenberg Uncertainty Principle: \( \Delta x \Delta p \geq \frac{\hbar}{2} \)</p>
+        <ul>
+            <li>\( \Delta x \) = uncertainty in position</li>
+            <li>\( \Delta p \) = uncertainty in momentum</li>
+            <li>\( \hbar \) = reduced Planck’s constant (\( \frac{h}{2\pi} \))</li>
+        </ul>
 
-    <h2>Nuclear Physics</h2>
-    <p>Mass-Energy Equivalence: \( E = mc^2 \)</p>
-    <ul>
-        <li>\( E \) = energy</li>
-        <li>\( m \) = mass</li>
-        <li>\( c \) = speed of light</li>
-    </ul>
-    <p>Binding Energy per Nucleon: \( E_b = \frac{\Delta m \cdot c^2}{A} \)</p>
-    <ul>
-        <li>\( E_b \) = binding energy per nucleon</li>
-        <li>\( \Delta m \) = mass defect</li>
-        <li>\( A \) = mass number</li>
-    </ul>
-
+        <h2>Nuclear Physics</h2>
+        <p>Mass-Energy Equivalence: \( E = mc^2 \)</p>
+        <ul>
+            <li>\( E \) = energy</li>
+            <li>\( m \) = mass</li>
+            <li>\( c \) = speed of light</li>
+        </ul>
+        <p>Binding Energy per Nucleon: \( E_b = \frac{\Delta m \cdot c^2}{A} \)</p>
+        <ul>
+            <li>\( E_b \) = binding energy per nucleon</li>
+            <li>\( \Delta m \) = mass defect</li>
+            <li>\( A \) = mass number</li>
+        </ul>
+    </div>
 </body>
 </html>
